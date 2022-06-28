@@ -2,7 +2,7 @@ const args = process.argv.slice(2);
 const [name] = args;
 
 if (name === undefined) {
-  console.error('Please pass a name, e.g. node hello.js Shaun');
+  console.error('Please pass a name, e.g. node hello.js Sean');
   process.exit(0);
 }
 
